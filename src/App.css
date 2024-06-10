@@ -1,0 +1,44 @@
+#qrSection {
+  height: 100svh;
+  background-color: var(--light-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 320px;
+  height: 497px;
+  background-color: var(--white);
+  padding: 1rem 1rem 0rem 1rem;
+  border: #979797;
+  border-radius: 20px;
+  filter: drop-shadow(0px 25px 25px #0000000b);
+}
+.qrCode {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageQrCode {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+
+.textContainer {
+  padding-inline: 1rem;
+  font-family: var(--family);
+  font-size: var(--para);
+  text-align: center;
+}
+.textContainer p:first-child {
+  color: var(--dark-blue);
+  font-weight: var(--weight-bold);
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+.textContainer p:last-child {
+  color: var(--grayish-blue);
+}
