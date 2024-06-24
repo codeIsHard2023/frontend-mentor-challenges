@@ -1,5 +1,7 @@
+import ChallengeList from "../components/homepage/ChallengeList";
+
 function Home() {
-  return <p>hello from Home</p>;
+  return <ChallengeList />;
 }
 
 export default Home;
