@@ -15,6 +15,7 @@
 
 #qrSection {
   height: 100svh;
+  width: 100%;
   background-color: var(--light-gray);
   display: flex;
   flex-direction: column;
@@ -23,7 +24,7 @@
 }
 .card {
   width: 320px;
-  height: 497px;
+  /* height: 497px; */
   background-color: var(--white);
   padding: 1rem 1rem 0rem 1rem;
   border: #979797;
