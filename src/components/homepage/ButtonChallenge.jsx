@@ -27,8 +27,8 @@ function ButtonChallenge({ challenge }) {
   };
 
   return (
-    <Button type="button" onClick={handleClick}>
-      {challenge}{" "}
+    <Button size="sm" variant="secondary" type="button" onClick={handleClick}>
+      {challenge}
     </Button>
   );
 }
